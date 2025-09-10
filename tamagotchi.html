@@ -4,13 +4,33 @@
   <meta charset="UTF-8">
   <title>tamagotchi</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Actor&family=Koulen&family=Pixelify+Sans:wght@400..700&family=Suranna&family=Tilt+Neon&display=swap" rel="stylesheet">
 </head>
 <body>
-  <div class="tamagotchi-body">
-    <img src="assets/images/tamagotchi.png" alt="tamagotchi" class="tamagotchi">
-  </div>
+    <header>
+      <h1>my pixel pet &lt;3 </h1>
+      <div class="btns">
+      <img src="assets/images/shrink-btn.png" alt="">
+      <img src="assets/images/close-btn.png" alt="">
+      </div>
+    </header>
 
+    <main>
+      <img id="tamagotchi" src="assets/images/tamagotchi-3.png" alt="">
+      <img id="tamagotchi-icons" src="assets/images/tamagotchi_icons.png" alt="">
 
+      <div class="btn" id="left-btn"></div>
+      <div class="btn" id="mid-btn"></div>
+      <div class="btn" id="right-btn"></div>
+
+      <img id="cat" src="assets/images/cat_looking_arnd.gif" alt="">
+
+      <audio id="bg-music" src="assets/sounds/bg_music.mp3"></audio>
+      <audio id="btn-sound" src="assets/sounds/button_sound.mp3"></audio>
+    </main>
+      
   <script src="script.js"></script>
 </body>
 </html>

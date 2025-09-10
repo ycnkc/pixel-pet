@@ -1,0 +1,132 @@
+html, body {
+    background: url("assets/images/bg-2.png") no-repeat center center;
+    background-size: auto;
+    margin: 0;
+    padding: 0;
+    width: 340px;
+    height: 340px;
+    
+}
+
+header {
+    position: relative;
+    display: flex;
+    left: 15px;
+    flex-direction: row;
+    gap: 75px;
+}
+
+header h1{
+    position: relative;
+    top: -10px;
+    color: #FF8F00;
+    font-family: "Pixelify Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.btns {
+    position: relative;
+    top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.btns img{
+    width: 22px;
+    height: 22px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+}
+
+#tamagotchi {
+    position: absolute;
+    width: 378px;
+    height: 378px;
+    flex-shrink: 0;
+    aspect-ratio: 1/1;
+    top: 0;
+    left: -20px;
+}
+
+#tamagotchi-icons{
+    position: absolute;
+    width: 200px;
+    height: 220px;
+    left: 66px;
+    top: 105px;
+    display: none;
+}
+
+#tamagotchi-icons.visible{
+    display: inline;
+}
+
+#cat{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 140px;
+    left: 125px;
+    display: none;
+}
+
+#cat.visible{
+    display: inline;
+}
+
+
+#left-btn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 255px;
+    left: 115px;
+    background: url("assets/images/btn.png") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#left-btn.pressed {
+    background: url("assets/images/left-btn-pressed.png") no-repeat center center;
+    background-size: contain;
+}
+
+#mid-btn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 255px;
+    left: 150px;
+    background: url("assets/images/btn.png") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#mid-btn.pressed {
+    background: url("assets/images/left-btn-pressed.png") no-repeat center center;
+    background-size: contain;
+}
+
+#right-btn {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 255px;
+    left: 185px;
+    background: url("assets/images/btn.png") no-repeat center center;
+    background-size: contain;
+    cursor: pointer;
+}
+
+#right-btn.pressed{
+    background: url("assets/images/left-btn-pressed.png") no-repeat center center;
+    background-size: contain;
+}
+
+
+
+
+
