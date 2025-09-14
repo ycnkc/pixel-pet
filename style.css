@@ -5,7 +5,11 @@ html, body {
     padding: 0;
     width: 340px;
     height: 340px;
-    
+    overflow: hidden;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 header {
@@ -13,7 +17,7 @@ header {
     display: flex;
     left: 15px;
     flex-direction: row;
-    gap: 75px;
+    gap: 90px;
 }
 
 header h1{
@@ -39,7 +43,10 @@ header h1{
     height: 22px;
     flex-shrink: 0;
     aspect-ratio: 1/1;
+    cursor: pointer;
+    z-index: 2;
 }
+
 
 #tamagotchi {
     position: absolute;
@@ -77,6 +84,23 @@ header h1{
     display: inline;
 }
 
+.stats{
+ display: none;
+}
+
+.stats.visible{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    top: 35px;
+    left: 30px;
+    color: #FF8F00;
+    font-family: "Pixelify Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
 
 #left-btn {
     position: absolute;

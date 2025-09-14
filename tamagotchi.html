@@ -13,7 +13,7 @@
       <h1>my pixel pet &lt;3 </h1>
       <div class="btns">
       <img src="assets/images/shrink-btn.png" alt="">
-      <img src="assets/images/close-btn.png" alt="">
+      <img id="close-btn" src="assets/images/close-btn.png" alt="">
       </div>
     </header>
 
@@ -27,8 +27,16 @@
 
       <img id="cat" src="assets/images/cat_looking_arnd.gif" alt="">
 
+      <div class="stats">
+        <p>hunger: <span id="hunger-value">100</span></p>
+        <p>fun: <span id="fun-value">100</span></p>
+        <p>sleep: <span id="sleep-value">100</span></p>
+      </div>
+
       <audio id="bg-music" src="assets/sounds/bg_music.mp3"></audio>
       <audio id="btn-sound" src="assets/sounds/button_sound.mp3"></audio>
+      <audio id="cat-purr" src="assets/sounds/cat_purring.mp3"></audio>
+      <audio id="cat-meow" src="assets/sounds/cat_meow.mp3"></audio>
     </main>
       
   <script src="script.js"></script>
